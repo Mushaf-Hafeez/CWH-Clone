@@ -1,0 +1,307 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header
+{
+    position: fixed;
+    width: 100vw;
+}
+
+.header-container
+{
+    height: 85px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: .5px solid rgb(219, 212, 212);
+}
+
+.logo
+{
+    text-decoration: none;
+    color: #7E22CE;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: .5px;
+}
+
+.header-menu
+{
+    display: flex;
+    align-items: center;
+}
+
+.header-item
+{
+    list-style: none;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header-link
+{
+    text-decoration: none;
+    color: black;
+}
+
+.header-link button
+{
+    height: 35px;
+    width: 65px;
+    color: white;
+    background-color: #7E22CE;
+    border: none;
+    border-radius: 7px;
+}
+
+.header-link:hover
+{
+    border-bottom: 2px solid #7E22CE;
+}
+
+.second-container
+{
+    background-color: white;
+    height: 48px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgb(209, 209, 209);
+}
+
+.second-container-menu
+{
+    list-style: none;
+    display: flex;
+}
+
+.second-container-item
+{
+    padding-right: 20px;
+    font-weight: bold;
+}
+.second-container-link
+{
+    text-decoration: none;
+    color: #7E22CE;
+}
+
+.second-container-link:hover
+{
+    border-bottom: 3px Solid #7E22CE; 
+}
+
+.home-logo,.search-logo:hover{
+    cursor: pointer;
+}
+
+.main
+{
+    height: 60vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content
+{
+    width: 50%;
+    padding: 10% 20px;
+    color: #1F2937;
+
+}
+
+.content p{
+    margin: 10px 0;
+    color: grey;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+#btn-1
+{
+    height: 40px;
+    width: 103.02px;
+    background-color: #111827;
+    color: #D1D5DB;
+    border: none;
+    border-radius: 3px;
+}
+
+#btn-2
+{
+    height: 40px;
+    width: 97.95px;
+    background-color: #D1D5DB;
+    color: #111827;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.color
+{
+    color: #7E22CE;
+}
+
+.image
+{
+    width: 50%;
+    background-image: url(Assets/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.heading
+{
+    margin: 30px 0;
+    font-size: 1.875rem;
+    text-align: center;
+    color: #111827;
+    letter-spacing: 1px;
+}
+
+.cards-container
+{
+    height: 80vh;
+    width: 90vw;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card
+{
+    width: 27vw;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px grey;
+
+}
+
+.card-thumbnail img
+{
+    width: 27vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-body
+{
+    padding: 20px;
+}
+
+.badge
+{
+    font-size: 12px;
+    pointer: text;
+}
+
+.card-title
+{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #1F2937;
+    pointer: text;
+}
+
+.card-subtitle
+{
+    margin: 10px 0;
+    color: #1F2937;
+    font-weight: 100;
+    pointer: text;
+}
+
+.card-body a button
+{
+    background-color: #7E22CE;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.msg-container
+{
+   width: 90vw;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.msg
+{
+    width: 43vw;
+    height: 40vh;
+    background-color: rgb(243 244 246);
+    color: grey;
+    padding: 30px;
+}
+
+.msg-regard
+{
+    margin: 20px 0 40px 0;
+}
+
+.msg-regard b
+{
+    color: #111827;
+}
+
+footer
+{
+    height: 10vh;
+    margin-top: 7vh;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img
+{
+    height: 48px;
+    margin-right: 10px;
+}
+
+.footer-logo h3
+{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.copyright
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid grey;
+}
+
+.copyright p
+{
+    color: grey;
+}
